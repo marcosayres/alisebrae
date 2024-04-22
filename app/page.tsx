@@ -8,9 +8,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>
-          E-books para Agentes Locais de Inovação - Sebrae 2023/2024
-        </title>
+        <title>E-books Agentes Locais de Inovação - Sebrae 2023/2024</title>
         <meta
           name="description"
           content="E-books para Agentes Locais de Inovação do Sebrae"

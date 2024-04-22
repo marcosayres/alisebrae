@@ -12,7 +12,7 @@
 .banner {
   width: 100%;
   height: 100vh;
-  background-image: url("/assets/images/banner.png");
+  background-image: url("../assets/images/banner.png");
   background-size: cover;
   background-position: center;
   position: relative;
@@ -44,7 +44,7 @@
 }
 
 .cardContent {
-  padding: 10px;
+  padding: 20px;
 }
 
 .cardContent h2 {
@@ -68,7 +68,7 @@
   text-decoration: none;
   color: #f1eeee;
   background-color: #2b2995;
-  padding: 5px 10px;
+  padding: 10px;
   border-radius: 5px;
   transition: background-color 0.3s ease;
 }
@@ -92,6 +92,11 @@
 @media only screen and (max-width: 480px) {
   .card {
     width: calc(50% - 20px);
+  }
+
+  /* Nova regra de mídia para telas com largura máxima de 480px (tamanho de celular) */
+  .banner {
+    background-image: url("../assets/images/mobile.png");
   }
 }
 
